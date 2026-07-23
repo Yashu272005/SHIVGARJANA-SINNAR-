@@ -59,129 +59,125 @@ export const committee: Member[] = [
 
   {
     name: { mr: 'भूषण झगडे', en: 'Bhushan zagade' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Bhushan.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
-  {
-    name: { mr: 'तेजस वायचळे', en: 'Tejas Vayachale' },
-    photo: '/images/members/example.jpg',
-    info: { mr: 'सदस्य', en: 'Member' },
-  },
+
 
   {
     name: {
       mr: 'संपत वाजे', en: 'Sampat Waje'
     },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Sampat Waje.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
     name: { mr: 'गणेश खर्जे', en: 'Ganesh Kharje' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Ganesh Kharje.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
 
   {
     name: { mr: 'सागर बेनके', en: 'Sagar Benke' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Sagar Benke.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
     name: { mr: 'रुपेश मुठे', en: 'Rupesh Muthe' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Rupesh Muthe.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
     name: { mr: 'सचिन लोणारे', en: 'Sachin Lonare' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Sachin Lonare.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
     name: { mr: 'मयूर नाईक', en: 'Mayur Naik' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Mayur Naik.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
 
   {
     name: { mr: 'किरण खर्जे', en: 'Kiran Kharje' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Kiran Kharje.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'सौरभ आहेर', en: 'Saurabh Aher' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Saurabh Aher.png ',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'किशोर राऊत', en: 'Kishor Raut' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Kishor Raut.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'सुशांत गोळेसर', en: 'Sushant Golesar' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Sushant Golesar.png ',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'श्रीधर झगडे', en: 'Shridhar Jhagade' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Shridhar Jhagade.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'सिद्धेश थोरात ', en: 'Siddhesh Thorat' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Siddhesh Thorat.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'कृष्णा लोंढे', en: 'Krishna Londhe' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Krishna Londhe.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'सुमित पाचोरे', en: 'Sumit Pachore' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Sumit Pachore.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'समाधान आव्हाड,', en: 'Samadhan Awhad' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Samadhan Awhad.JPG',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'तुषार झगडे', en: 'Tejas Vayachale' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Tejas Vayachale.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'गणेश डहाळे', en: 'Ganesh Dhape' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Ganesh Dhape.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'शिवम वाघ', en: 'Shivam Vagh' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Shivam Vagh.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'ज्ञानेश्वर वरंधळ', en: 'Jnaneshwar Varnad' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Jnaneshwar Varnad.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
-    name: { mr: 'प्रशांत सोनवणे,', en: 'Prashant Sonavane' },
-    photo: '/images/members/example.jpg',
+    name: { mr: 'प्रशांत सोनवणे ', en: 'Prashant Sonavane' },
+    photo: '/images/member/Prashant Sonavane.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
     name: { mr: 'प्रतीश सोनवणे', en: 'Pratik Kurane' },
-    photo: '/images/members/example.jpg',
+    photo: '/images/member/Pratik Kurane.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
@@ -207,7 +203,7 @@ export const departments: DepartmentSeed[] = [
   {
     id: 'health',
     icon: 'HeartPulse',
-    head: 'Dr. Pradipchandra Pawar',
+    head: '',
     members: ['Sampat Waje', 'Mayur Naik', 'Saurabh Aher'],
     contactPerson: 'Sampat Waje',
     contactPhone: '+91 98765 43210',

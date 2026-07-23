@@ -54,13 +54,13 @@ export default function About() {
       <section className="py-16 px-4 bg-gradient-to-b from-orange-50 to-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-2">{t.org.title[lang]}</h2>
+
             <div className="w-20 h-1 bg-orange-500 mx-auto" />
           </div>
 
           <div className="flex flex-col items-center">
             <img
-              src="/images/committee-group.jpg"
+              src="/images/group.JPG"
               alt={isMr ? 'शिष्टमंडळ गट छायाचित्र' : 'Committee group photo'}
               className="rounded-2xl shadow-xl w-full max-w-3xl h-auto object-cover mb-4"
               loading="lazy"

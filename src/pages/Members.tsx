@@ -18,7 +18,7 @@ function resolveName(name: Member['name'], lang: LanguageKey): string {
 }
 
 function Avatar({ member, size = 'lg', lang }: { member: Member; size?: 'lg' | 'md'; lang: LanguageKey }) {
-  const dimensions = size === 'lg' ? 'w-55 h-50 text-8xl' : 'w-30 h-30 text-3xl';
+  const dimensions = size === 'lg' ? 'w-55 h-55 text-8xl' : 'w-30 h-30 text-3xl';
   const displayName = resolveName(member.name, lang);
   const initial = displayName.charAt(0) || '?';
 
