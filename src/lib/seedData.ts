@@ -26,88 +26,165 @@ export const guide: Member = {
   },
 };
 
-// Chief / अध्यक्ष
-export const chief: Member = {
-  name: {
-    mr: 'विकास संतोष लोंढे',
-    en: 'Vikas Santosh Londhe'
-  },
-  photo: '/images/member/vikas londhe.jpg',
-  info: {
-    mr: 'मंडळाचे अध्यक्ष',
-    en: 'President of the Mandal',
-  },
-};
 
 // Committee members / कार्यकारिणी सदस्य
 // Add remaining members below in the same format.
 export const committee: Member[] = [
   {
-    name: { mr: '', en: 'Vinayak Londhe' },
+    name: {
+      mr: 'विकास संतोष लोंढे',
+      en: 'Vikas Santosh Londhe'
+    },
+    photo: '/images/member/vikas londhe.jpg',
+    info: {
+      mr: 'मंडळाचे प्रमुख',
+      en: 'President of the Mandal',
+    },
+  },
+  {
+    name: { mr: 'विनायक लोंढे', en: 'Vinayak Londhe' },
     photo: '/images/member/vinayak.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Ajay Mithe' },
+    name: { mr: ' अजय मिठे', en: 'Ajay Mithe' },
     photo: '/images/member/ajay.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
   {
-    name: { mr: '', en: 'Akshay Golesar' },
+    name: { mr: 'अक्षय गोळेसर', en: 'Akshay Golesar' },
     photo: '/images/member/akshay.png',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Bhushan zagade' },
+    name: { mr: 'भूषण झगडे', en: 'Bhushan zagade' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Tejas Vayachale' },
+    name: { mr: 'तेजस वायचळे', en: 'Tejas Vayachale' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Sampat Waje' },
+    name: {
+      mr: 'संपत वाजे', en: 'Sampat Waje'
+    },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Ganesh Kharje' },
+    name: { mr: 'गणेश खर्जे', en: 'Ganesh Kharje' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
 
   {
-    name: { mr: '', en: 'Sagar Benke' },
+    name: { mr: 'सागर बेनके', en: 'Sagar Benke' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Rupesh Muthe' },
+    name: { mr: 'रुपेश मुठे', en: 'Rupesh Muthe' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Vinayak Londhe' },
+    name: { mr: 'सचिन लोणारे', en: 'Sachin Lonare' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
   {
-    name: { mr: '', en: 'Sachin Lonare' },
+    name: { mr: 'मयूर नाईक', en: 'Mayur Naik' },
     photo: '/images/members/example.jpg',
     info: { mr: 'सदस्य', en: 'Member' },
   },
 
+
+  {
+    name: { mr: 'किरण खर्जे', en: 'Kiran Kharje' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'सौरभ आहेर', en: 'Saurabh Aher' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'किशोर राऊत', en: 'Kishor Raut' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'सुशांत गोळेसर', en: 'Sushant Golesar' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'श्रीधर झगडे', en: 'Shridhar Jhagade' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'सिद्धेश थोरात ', en: 'Siddhesh Thorat' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'कृष्णा लोंढे', en: 'Krishna Londhe' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'सुमित पाचोरे', en: 'Sumit Pachore' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'समाधान आव्हाड,', en: 'Samadhan Awhad' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'तुषार झगडे', en: 'Tejas Vayachale' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'गणेश डहाळे', en: 'Ganesh Dhape' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'शिवम वाघ', en: 'Shivam Vagh' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'ज्ञानेश्वर वरंधळ', en: 'Jnaneshwar Varnad' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'प्रशांत सोनवणे,', en: 'Prashant Sonavane' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
+  {
+    name: { mr: 'प्रतीश सोनवणे', en: 'Pratik Kurane' },
+    photo: '/images/members/example.jpg',
+    info: { mr: 'सदस्य', en: 'Member' },
+  },
 
 ];
 
