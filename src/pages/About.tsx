@@ -50,6 +50,7 @@ export default function About() {
       </section>
 
       {/* Organization Structure */}
+      {/* Organization Structure */}
       <section className="py-16 px-4 bg-gradient-to-b from-orange-50 to-white">
         <div className="max-w-5xl mx-auto">
           <div className="text-center mb-12">
@@ -57,62 +58,21 @@ export default function About() {
             <div className="w-20 h-1 bg-orange-500 mx-auto" />
           </div>
 
-          {/* Guide */}
-          <div className="flex flex-col items-center mb-10">
-            <div className="w-28 h-28 rounded-full bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center text-white text-3xl font-bold shadow-xl mb-4">
-              {guideName.charAt(0)}
-            </div>
-            <div className="text-center">
-              <div className="text-sm text-purple-600 font-medium">{t.org.guide[lang]}</div>
-              <div className="text-xl font-bold text-gray-800">{guideName}</div>
-            </div>
-          </div>
-
-          {/* Connector */}
-          <div className="flex justify-center mb-10">
-            <div className="w-1 h-12 bg-orange-300" />
-          </div>
-
-          {/* Chief */}
-          <div className="flex flex-col items-center mb-10">
-            <div className="w-28 h-28 rounded-full bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center text-white text-3xl font-bold shadow-xl mb-4">
-              {chiefName.charAt(0)}
-            </div>
-            <div className="text-center">
-              <div className="text-sm text-orange-600 font-medium">{t.org.chief[lang]}</div>
-              <div className="text-xl font-bold text-gray-800">{chiefName}</div>
-            </div>
-          </div>
-
-          {/* Connector */}
-          <div className="flex justify-center mb-10">
-            <div className="w-1 h-12 bg-orange-300" />
-          </div>
-
-          {/* Committee */}
-          <div>
-            <h3 className="text-center text-xl font-bold text-gray-800 mb-6">{t.org.committee[lang]}</h3>
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-              {committee.map((member, i) => {
-                const memberName = resolveName(member.name, lang);
-                return (
-                  <div
-                    key={`${memberName}-${i}`}
-                    className="flex flex-col items-center p-4 bg-white rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all"
-                    style={{ animationDelay: `${i * 50}ms` }}
-                  >
-                    <div className="w-14 h-14 rounded-full bg-gradient-to-br from-orange-400 to-amber-500 flex items-center justify-center text-white text-lg font-bold mb-2">
-                      {memberName.charAt(0)}
-                    </div>
-                    <div className="text-sm font-medium text-gray-700 text-center">{memberName}</div>
-                  </div>
-                );
-              })}
-            </div>
+          <div className="flex flex-col items-center">
+            <img
+              src="/images/committee-group.jpg"
+              alt={isMr ? 'शिष्टमंडळ गट छायाचित्र' : 'Committee group photo'}
+              className="rounded-2xl shadow-xl w-full max-w-3xl h-auto object-cover mb-4"
+              loading="lazy"
+            />
+            <p className="text-gray-600 text-center max-w-2xl">
+              {isMr
+                ? 'आमचे मार्गदर्शक, प्रमुख आणि समर्पित शिष्टमंडळ सदस्य एकत्रितपणे संस्थेच्या कार्याचे नेतृत्व करतात.'
+                : 'Our guide, chief, and dedicated committee members together lead the work of the organization.'}
+            </p>
           </div>
         </div>
       </section>
-
       {/* Values */}
       <section className="py-16 px-4 max-w-7xl mx-auto">
         <div className="grid md:grid-cols-3 gap-6">

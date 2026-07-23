@@ -26,21 +26,20 @@ export const guide: Member = {
   },
 };
 
-
-// Committee members / कार्यकारिणी सदस्य
-// Add remaining members below in the same format.
-export const committee: Member[] = [
-  {
-    name: {
-      mr: 'विकास संतोष लोंढे',
-      en: 'Vikas Santosh Londhe'
-    },
-    photo: '/images/member/vikas londhe.jpg',
-    info: {
-      mr: 'मंडळाचे प्रमुख',
-      en: 'President of the Mandal',
-    },
+// Chief / मंडळाचे प्रमुख
+export const chief: Member = {
+  name: {
+    mr: 'विकास संतोष लोंढे',
+    en: 'Vikas Santosh Londhe'
   },
+  photo: '/images/member/vikas londhe.jpg',
+  info: {
+    mr: 'मंडळाचे प्रमुख',
+    en: 'President of the Mandal',
+  },
+};
+
+export const committee: Member[] = [
   {
     name: { mr: 'विनायक लोंढे', en: 'Vinayak Londhe' },
     photo: '/images/member/vinayak.png',
