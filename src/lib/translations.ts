@@ -27,7 +27,7 @@ export const translations: Record<string, Record<string, Bi>> = {
   },
   // Hero
   hero: {
-    title: { mr: 'शिवगर्जना, सिन्नर', en: 'Shivgarjana Mitra Mandal Dahihandi Samiti, Sinnar' },
+    title: { mr: 'शिवगर्जना, सिन्नर', en: 'Shivgarjana, Sinnar' },
     subtitle: { mr: 'सेवा हाच धर्म आहे • सिन्नर तालुक्यातील अभिमानास्पद सामाजिक संस्था', en: 'Service is our religion • A proud social organization in Sinnar taluka' },
     cta1: { mr: 'सदस्य होण्यासाठी', en: 'Join Us' },
     cta2: { mr: 'अधिक जाणून घ्या', en: 'Learn More' },
