@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://shivgarjana-sinnar.vercel.app/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/departments</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/departments/health</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/departments/employment</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/departments/loan</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/departments/education</loc><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/events</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/social</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/members</loc><changefreq>monthly</changefreq><priority>0.6</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/join</loc><changefreq>monthly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/gallery</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://shivgarjana-sinnar.vercel.app/contact</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
+</urlset>
