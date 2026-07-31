@@ -34,8 +34,8 @@ export const chief: Member = {
   },
   photo: '/images/member/vikas londhe.jpg',
   info: {
-    mr: 'मंडळाचे प्रमुख',
-    en: 'President of the Mandal',
+    mr: 'शिवगर्जना मंडळाचे प्रमुख',
+    en: 'President of the Shivgarjana, Mandal',
   },
 };
 

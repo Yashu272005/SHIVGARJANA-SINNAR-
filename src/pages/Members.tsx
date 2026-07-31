@@ -17,8 +17,28 @@ function resolveName(name: Member['name'], lang: LanguageKey): string {
   return fallback ?? '';
 }
 
+
+function ChiefCard() {
+  const { lang } = useLanguage() as { lang: LanguageKey };
+  const name = resolveName(chief.name, lang);
+
+  return (
+    <div className="flex flex-col items-center bg-gradient-to-b from-orange-50 to-amber-100 border border-orange-200 rounded-3xl shadow-md p-12 ">
+      <div className="w-72 h-72 rounded-2xl overflow-hidden shadow-lg mb-4 bg-white">
+        <img
+          src={chief.photo}
+          alt={name}
+          className="w-full h-full object-cover"
+        />
+      </div>
+      <div className="text-2xl font-bold text-orange-600 text-center">{name}</div>
+      <div className="text-lg text-gray-500 text-center mt-1">{chief.info[lang]}</div>
+    </div>
+  );
+}
+
 function Avatar({ member, size = 'lg', lang }: { member: Member; size?: 'lg' | 'md'; lang: LanguageKey }) {
-  const dimensions = size === 'lg' ? 'w-72 h-72 text-8xl' : 'w-28 h-28 text-3xl';
+  const dimensions = size === 'lg' ? 'w-70 h-70 text-8xl' : 'w-45 h-45 text-3xl';
   const displayName = resolveName(member.name, lang);
   const initial = displayName.charAt(0) || '?';
 
@@ -73,6 +93,7 @@ function MembersSection({ lang }: { lang: LanguageKey }) {
         </div>
       </div>
 
+
       {/* Guide */}
       <div className="flex flex-col items-center mb-8">
         <Avatar member={guide} size="lg" lang={lang} />
@@ -89,21 +110,15 @@ function MembersSection({ lang }: { lang: LanguageKey }) {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {filtered.map((member, idx) => {
             const memberName = resolveName(member.name, lang);
-            const isChief = member === chief;
 
             return (
               <div
                 key={`${memberName}-${idx}`}
-                className={`flex flex-col items-center bg-gradient-to-b from-orange-50 to-amber-100 border border-orange-200 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all p-4 ${isChief ? 'col-span-2 row-span-2' : ''
-                  }`}
+                className="flex flex-col items-center bg-gradient-to-b from-orange-50 to-amber-100 border border-orange-200 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all p-4"
               >
-                <Avatar member={member} size={isChief ? 'lg' : 'md'} lang={lang} />
-                <div className={`font-medium text-gray-700 text-center ${isChief ? 'text-lg mt-2' : 'text-sm'}`}>
-                  {memberName}
-                </div>
-                <div className={`text-gray-500 text-center mt-1 ${isChief ? 'text-sm' : 'text-xs'}`}>
-                  {member.info[lang]}
-                </div>
+                <Avatar member={member} size="md" lang={lang} />
+                <div className="font-medium text-gray-700 text-center text-sm">{memberName}</div>
+                <div className="text-gray-500 text-center mt-1 text-xs">{member.info[lang]}</div>
               </div>
             );
           })}
