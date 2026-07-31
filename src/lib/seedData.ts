@@ -40,27 +40,28 @@ export const chief: Member = {
 };
 
 export const committee: Member[] = [
+
   {
     name: { mr: 'विनायक लोंढे', en: 'Vinayak Londhe' },
     photo: '/images/member/vinayak.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
   {
     name: { mr: ' अजय मिठे', en: 'Ajay Mithe' },
     photo: '/images/member/ajay.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'अक्षय गोळेसर', en: 'Akshay Golesar' },
     photo: '/images/member/akshay.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
   {
     name: { mr: 'भूषण झगडे', en: 'Bhushan zagade' },
     photo: '/images/member/Bhushan.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
 
@@ -70,115 +71,115 @@ export const committee: Member[] = [
       mr: 'संपत वाजे', en: 'Sampat Waje'
     },
     photo: '/images/member/Sampat Waje.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
   {
     name: { mr: 'गणेश खर्जे', en: 'Ganesh Kharje' },
     photo: '/images/member/Ganesh Kharje.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
 
   {
     name: { mr: 'सागर बेनके', en: 'Sagar Benke' },
     photo: '/images/member/Sagar Benke.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
   {
     name: { mr: 'रुपेश मुठे', en: 'Rupesh Muthe' },
     photo: '/images/member/Rupesh Muthe.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
   {
     name: { mr: 'सचिन लोणारे', en: 'Sachin Lonare' },
     photo: '/images/member/Sachin Lonare.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
   {
     name: { mr: 'मयूर नाईक', en: 'Mayur Naik' },
     photo: '/images/member/Mayur Naik.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
 
   {
     name: { mr: 'किरण खर्जे', en: 'Kiran Kharje' },
     photo: '/images/member/Kiran Kharje.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'सौरभ आहेर', en: 'Saurabh Aher' },
     photo: '/images/member/Saurabh Aher.png ',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'किशोर राऊत', en: 'Kishor Raut' },
     photo: '/images/member/Kishor Raut.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'सुशांत गोळेसर', en: 'Sushant Golesar' },
     photo: '/images/member/Sushant Golesar.png ',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'श्रीधर झगडे', en: 'Shridhar Jhagade' },
     photo: '/images/member/Shridhar Jhagade.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'सिद्धेश थोरात ', en: 'Siddhesh Thorat' },
     photo: '/images/member/Siddhesh Thorat.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'कृष्णा लोंढे', en: 'Krishna Londhe' },
     photo: '/images/member/Krishna Londhe.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख ', en: 'Department Head' },
   },
   {
     name: { mr: 'सुमित पाचोरे', en: 'Sumit Pachore' },
     photo: '/images/member/Sumit Pachore.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'समाधान आव्हाड,', en: 'Samadhan Awhad' },
     photo: '/images/member/Samadhan Awhad.JPG',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'तुषार झगडे', en: 'Tejas Vayachale' },
     photo: '/images/member/Tejas Vayachale.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'गणेश डहाळे', en: 'Ganesh Dhape' },
     photo: '/images/member/Ganesh Dhape.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'शिवम वाघ', en: 'Shivam Vagh' },
     photo: '/images/member/Shivam Vagh.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'ज्ञानेश्वर वरंधळ', en: 'Jnaneshwar Varnad' },
     photo: '/images/member/Jnaneshwar Varnad.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'प्रशांत सोनवणे ', en: 'Prashant Sonavane' },
     photo: '/images/member/Prashant Sonavane.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'प्रतीश सोनवणे', en: 'Pratik Kurane' },
     photo: '/images/member/Pratik Kurane.png',
-    info: { mr: 'सदस्य', en: 'Member' },
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
 ];

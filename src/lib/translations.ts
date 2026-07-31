@@ -77,6 +77,7 @@ export const translations: Record<string, Record<string, Bi>> = {
     dahihandi: { mr: 'सिन्नर तालुक्यातील सर्वात मोठा दहीहंडी उत्सव', en: 'The Biggest Dahihandi Festival in Sinnar Taluka' },
     deepotsav: { mr: 'दीपोत्सव', en: 'Deepotsav' },
     shivjayanti: { mr: 'शिवजयंती', en: 'Shivjayanti' },
+
   },
   // Social Activities
   socialAct: {
@@ -128,6 +129,8 @@ export const translations: Record<string, Record<string, Bi>> = {
     health: { mr: 'आरोग्य शिबीर', en: 'Health Camp' },
     cleaning: { mr: 'स्वच्छता मोहीम', en: 'Cleaning Campaign' },
     events: { mr: 'कार्यक्रम', en: 'Events' },
+    ramnavami: { mr: 'श्रीराम नवमी', en: 'Shri Ram Navami' },
+    palkhi: { mr: 'विश्वगुरू संतश्रेष्ठ श्री निवृत्तीनाथ महाराज पालखी सोहळा', en: 'Vishwaguru Sant Shrestha Shri Nivruttinath Maharaj Palkhi Sohala' },
   },
   // Contact
   contact: {

@@ -454,6 +454,8 @@ export default function AdminDashboard() {
                     <option value="health">{t.gallery.health[lang]}</option>
                     <option value="cleaning">{t.gallery.cleaning[lang]}</option>
                     <option value="events">{t.gallery.events[lang]}</option>
+                    <option value="ramnavami">{t.gallery.ramnavami[lang]}</option>
+                    <option value="palkhi">{t.gallery.palkhi[lang]}</option>
                   </select>
                 </div>
                 <div>

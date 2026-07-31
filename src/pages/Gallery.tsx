@@ -7,7 +7,7 @@ import { getMediaType, parseVideoUrl } from '../lib/exportUtils';
 import PageHeader from '../components/PageHeader';
 import type { GalleryImage } from "../lib/types";
 
-type Category = 'all' | 'festival' | 'blood' | 'health' | 'cleaning' | 'events';
+type Category = 'all' | 'festival' | 'blood' | 'health' | 'cleaning' | 'events' | 'ramnavami' | 'palkhi';
 type ViewMode = 'category' | 'year';
 
 const EARLIEST_YEAR = 2022;
@@ -112,6 +112,8 @@ export default function Gallery() {
     { key: 'health', label: t.gallery.health[lang] },
     { key: 'cleaning', label: t.gallery.cleaning[lang] },
     { key: 'events', label: t.gallery.events[lang] },
+    { key: 'ramnavami', label: t.gallery.ramnavami[lang] },
+    { key: 'palkhi', label: t.gallery.palkhi[lang] },
   ];
 
   const years = useMemo(() => {

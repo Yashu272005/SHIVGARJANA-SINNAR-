@@ -18,13 +18,13 @@ function resolveName(name: Member['name'], lang: LanguageKey): string {
 }
 
 function Avatar({ member, size = 'lg', lang }: { member: Member; size?: 'lg' | 'md'; lang: LanguageKey }) {
-  const dimensions = size === 'lg' ? 'w-55 h-55 text-8xl' : 'w-30 h-30 text-3xl';
+  const dimensions = size === 'lg' ? 'w-72 h-72 text-8xl' : 'w-28 h-28 text-3xl';
   const displayName = resolveName(member.name, lang);
   const initial = displayName.charAt(0) || '?';
 
   if (member.photo) {
     return (
-      <div className={`${dimensions} aspect-square object-cover overflow-hidden shadow-xl mb-3 border-2 border-white shrink-0 bg-gray-100`}>
+      <div className={`${dimensions} aspect-square object-cover overflow-hidden rounded-2xl shadow-xl mb-3 border-2 border-white shrink-0 bg-gray-100`}>
         <img
           src={member.photo}
           alt={displayName}
@@ -52,7 +52,7 @@ function Avatar({ member, size = 'lg', lang }: { member: Member; size?: 'lg' | '
 function MembersSection({ lang }: { lang: LanguageKey }) {
   const [query, setQuery] = useState('');
 
-  const filtered = committee.filter((m) => {
+  const filtered = [chief, ...committee].filter((m) => {
     const name = resolveName(m.name, lang);
     return name.toLowerCase().includes(query.toLowerCase());
   });
@@ -81,14 +81,6 @@ function MembersSection({ lang }: { lang: LanguageKey }) {
         <div className="text-sm text-gray-500 text-center max-w-xs">{guide.info[lang]}</div>
       </div>
 
-      {/* Chief */}
-      <div className="flex flex-col items-center mb-8">
-        <Avatar member={chief} size="lg" lang={lang} />
-        <div className="text-sm text-orange-600 font-medium">{t.org.chief[lang]}</div>
-        <div className="text-lg font-bold text-gray-800">{resolveName(chief.name, lang)}</div>
-        <div className="text-sm text-gray-500 mt-1 text-center max-w-xs">{chief.info[lang]}</div>
-      </div>
-
       {/* Committee */}
       <h3 className="text-center text-xl font-bold text-gray-800 mb-6">{t.org.committee[lang]}</h3>
       {filtered.length === 0 ? (
@@ -97,15 +89,21 @@ function MembersSection({ lang }: { lang: LanguageKey }) {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {filtered.map((member, idx) => {
             const memberName = resolveName(member.name, lang);
+            const isChief = member === chief;
 
             return (
               <div
                 key={`${memberName}-${idx}`}
-                className="flex flex-col items-center p-4 bg-white rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all"
+                className={`flex flex-col items-center bg-gradient-to-b from-orange-50 to-amber-100 border border-orange-200 rounded-xl shadow-md hover:shadow-lg hover:scale-105 transition-all p-4 ${isChief ? 'col-span-2 row-span-2' : ''
+                  }`}
               >
-                <Avatar member={member} size="md" lang={lang} />
-                <div className="text-sm font-medium text-gray-700 text-center">{memberName}</div>
-                <div className="text-xs text-gray-500 text-center mt-1">{member.info[lang]}</div>
+                <Avatar member={member} size={isChief ? 'lg' : 'md'} lang={lang} />
+                <div className={`font-medium text-gray-700 text-center ${isChief ? 'text-lg mt-2' : 'text-sm'}`}>
+                  {memberName}
+                </div>
+                <div className={`text-gray-500 text-center mt-1 ${isChief ? 'text-sm' : 'text-xs'}`}>
+                  {member.info[lang]}
+                </div>
               </div>
             );
           })}
