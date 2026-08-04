@@ -32,7 +32,7 @@ export const chief: Member = {
     mr: 'विकास संतोष लोंढे',
     en: 'Vikas Santosh Londhe'
   },
-  photo: '/images/member/vikas londhe.jpg',
+  photo: '/images/member/vikas londhe.png',
   info: {
     mr: 'शिवगर्जना मंडळाचे प्रमुख',
     en: 'President of the Shivgarjana, Mandal',
