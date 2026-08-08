@@ -123,17 +123,6 @@ export default function DepartmentDetail() {
           </div>
         </div>
 
-        {/* Gallery */}
-        <div className="mb-12">
-          <h3 className="text-2xl font-bold text-gray-800 mb-4">{t.departments.gallery[lang]}</h3>
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
-            {[dept.image, '/images/decoration.jpg', '/images/about-community.jpg'].map((img, i) => (
-              <div key={i} className="rounded-xl overflow-hidden shadow-md group">
-                <img src={img} alt={`Gallery ${i}`} className="w-full h-40 object-cover group-hover:scale-110 transition-transform duration-500" loading="lazy" />
-              </div>
-            ))}
-          </div>
-        </div>
 
         {/* Contact Person */}
         <div className="bg-gray-800 rounded-2xl p-6 text-white">
