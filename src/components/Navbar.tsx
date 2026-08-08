@@ -1,6 +1,6 @@
 import { Link, NavLink, useLocation } from 'react-router-dom';
 import { useState, useEffect } from 'react';
-import { Menu, X, Globe, Shield } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from '../context/LanguageContext';
 import { translations as t } from '../lib/translations';
 
@@ -71,13 +71,6 @@ export default function Navbar() {
                 {item.label}
               </NavLink>
             ))}
-            <Link
-              to="/admin"
-              className="ml-1 flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium bg-gray-800 text-white hover:bg-gray-700 transition-colors"
-            >
-              <Shield size={14} />
-              {t.nav.admin[lang]}
-            </Link>
             <button
               onClick={toggle}
               className="ml-1 flex items-center gap-1 px-3 py-2 rounded-lg text-sm font-medium bg-orange-500 text-white hover:bg-orange-600 transition-colors"
@@ -124,13 +117,6 @@ export default function Navbar() {
                   {item.label}
                 </NavLink>
               ))}
-              <Link
-                to="/admin"
-                className="flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-medium bg-gray-800 text-white"
-              >
-                <Shield size={16} />
-                {t.nav.admin[lang]}
-              </Link>
             </div>
           </div>
         )}

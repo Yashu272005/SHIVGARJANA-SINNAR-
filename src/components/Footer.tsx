@@ -56,7 +56,7 @@ export default function Footer() {
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-orange-600 transition-colors">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-orange-600 transition-colors">
+              <a href="https://www.instagram.com/shivgarjna_sinnar_official/?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw%3D%3D" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-orange-600 transition-colors">
                 <Instagram size={18} />
               </a>
               <a href="#" className="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-orange-600 transition-colors">
@@ -79,14 +79,11 @@ export default function Footer() {
           <div>
             <h3 className="font-bold text-white mb-4 text-lg">{t.footer.emergency[lang]}</h3>
             <div className="space-y-3">
-              <a href="tel:+919876543210" className="flex items-center gap-2 text-sm hover:text-orange-400 transition-colors">
+              <a href="tel:+917507875032" className="flex items-center gap-2 text-sm hover:text-orange-400 transition-colors">
                 <Phone size={16} />
-                +91 98765 43210
+                +91 75078 75032
               </a>
-              <a href="tel:+919876543211" className="flex items-center gap-2 text-sm hover:text-orange-400 transition-colors">
-                <Phone size={16} />
-                +91 98765 43211
-              </a>
+
               <div className="mt-4 p-3 bg-gray-800 rounded-lg">
                 <div className="text-xs text-gray-500 mb-1">{isMr ? 'प्रमुख' : 'Chief'}</div>
                 <div className="text-sm font-medium text-white">Vikas Santosh Londhe</div>

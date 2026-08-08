@@ -101,19 +101,19 @@ export const committee: Member[] = [
 
   {
     name: { mr: 'मयूर नाईक', en: 'Mayur Naik' },
-    photo: '/images/member/Mayur Naik.png',
+    photo: '/images/member/mayur naik.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
 
   {
     name: { mr: 'किरण खर्जे', en: 'Kiran Kharje' },
-    photo: '/images/member/Kiran Kharje.png',
+    photo: '/images/member/kiran kharje.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'सौरभ आहेर', en: 'Saurabh Aher' },
-    photo: '/images/member/Saurabh Aher.png ',
+    photo: '/images/member/Saurbh ahear.jpeg ',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
@@ -128,7 +128,7 @@ export const committee: Member[] = [
   },
   {
     name: { mr: 'श्रीधर झगडे', en: 'Shridhar Jhagade' },
-    photo: '/images/member/Shridhar Jhagade.png',
+    photo: '/images/member/shridhar zagade.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
@@ -143,7 +143,7 @@ export const committee: Member[] = [
   },
   {
     name: { mr: 'सुमित पाचोरे', en: 'Sumit Pachore' },
-    photo: '/images/member/Sumit Pachore.png',
+    photo: '/images/member/Sumit pachore.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
@@ -152,23 +152,23 @@ export const committee: Member[] = [
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
-    name: { mr: 'तुषार झगडे', en: 'Tejas Vayachale' },
-    photo: '/images/member/Tejas Vayachale.png',
+    name: { mr: 'तुषार झगडे', en: 'Tushar zagade' },
+    photo: '/images/member/tushar zagade.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
-    name: { mr: 'गणेश डहाळे', en: 'Ganesh Dhape' },
-    photo: '/images/member/Ganesh Dhape.png',
+    name: { mr: 'गणेश डहाळे', en: 'Ganesh Dahale' },
+    photo: '/images/member/ganesh Dahale.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
-    name: { mr: 'शिवम वाघ', en: 'Shivam Vagh' },
-    photo: '/images/member/Shivam Vagh.png',
+    name: { mr: 'शिवम वाघ', en: 'Shivam Wagh' },
+    photo: '/images/member/shivam wagh.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
     name: { mr: 'ज्ञानेश्वर वरंधळ', en: 'Jnaneshwar Varnad' },
-    photo: '/images/member/Jnaneshwar Varnad.png',
+    photo: '/images/member/dynashwar warandal.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
@@ -177,8 +177,8 @@ export const committee: Member[] = [
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
-    name: { mr: 'प्रतीश सोनवणे', en: 'Pratik Kurane' },
-    photo: '/images/member/Pratik Kurane.png',
+    name: { mr: 'प्रतीश सोनवणे', en: 'pratish sonavane' },
+    photo: '/images/member/pritesh sonavane.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
@@ -314,16 +314,16 @@ export const festivals: FestivalSeed[] = [
     id: 'mahaarti',
     image: '/images/festival-aarti.png',
     description: {
-      mr: 'सिन्नर तालुक्यातील एकमेव महाआरती हा आमचा अभिमानाचा उपक्रम आहे. हजारो भाविकांच्या उपस्थितीत दिव्य वातावरणात ही महाआरती साजरी केली जाते.',
-      en: 'The only Maha-Aarti in Sinnar taluka is our proud initiative. This Maha-Aarti is celebrated in a divine atmosphere in the presence of thousands of devotees.'
+      mr: 'श्रीराम नवमी निमित्त भव्य उत्सव आयोजित केला जातो. पालखी, भजन आणि प्रसाद वितरणाच्या माध्यमातून हा कार्यक्रम साजरा केला जातो.',
+      en: 'A grand celebration is organized on the occasion of Shri Ram Navami. This event is celebrated through palanquin, bhajan and prasad distribution.'
     }
   },
   {
     id: 'ramnavami',
     image: '/images/festival-ramnavami.png',
     description: {
-      mr: 'श्रीराम नवमी निमित्त भव्य उत्सव आयोजित केला जातो. पालखी, भजन आणि प्रसाद वितरणाच्या माध्यमातून हा कार्यक्रम साजरा केला जातो.',
-      en: 'A grand celebration is organized on the occasion of Shri Ram Navami. This event is celebrated through palanquin, bhajan and prasad distribution.'
+      mr: 'संतश्रेष्ठ श्री निवृत्तीनाथ महाराजांची पवित्र पालखी त्र्यंबकेश्वर येथून पंढरपूरकडे प्रस्थान करताना दरवर्षी सिन्नर तालुक्यातून मार्गक्रमण करते. २०२६ च्या पालखी सोहळ्यातही सिन्नर येथे हजारो वारकरी, भाविक आणि ग्रामस्थांनी उत्साहात स्वागत केले.',
+      en: 'The sacred palanquin procession of Sant Shreshtha Shri Nivruttinath Maharaj travels from Trimbakeshwar to Pandharpur every year, passing through Sinnar Taluka on its journey. During the 2026 Palkhi procession, thousands of Warkaris (devotees), pilgrims, and local residents gathered in Sinnar to welcome the palanquin with great devotion, enthusiasm, and reverence.'
     }
   },
   {

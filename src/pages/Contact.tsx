@@ -46,7 +46,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="font-semibold text-gray-800">{t.contact.phone[lang]}</div>
-                  <a href="tel:+919876543210" className="text-sm text-gray-500 hover:text-orange-600">+91 98765 43210</a>
+                  <a href="tel:7507875032" className="text-sm text-gray-500 hover:text-orange-600">+91 75078 75032</a>
                 </div>
               </div>
               <div className="flex items-start gap-4 p-4 bg-white rounded-xl shadow-md">
@@ -63,7 +63,7 @@ export default function Contact() {
             {/* Emergency contact */}
             <div className="mt-6 p-6 bg-gradient-to-r from-red-500 to-orange-600 rounded-2xl text-white">
               <div className="text-sm text-orange-100 mb-1">{t.footer.emergency[lang]}</div>
-              <a href="tel:+919876543210" className="text-2xl font-bold hover:text-orange-200">+91 98765 43210</a>
+              <a href="tel:+917507875032" className="text-2xl font-bold hover:text-orange-200">+91 75078 75032</a>
             </div>
           </div>
 

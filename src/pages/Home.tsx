@@ -124,21 +124,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* CTA */}
-      <section className="py-16 px-4 bg-gradient-to-r from-orange-600 to-red-600 text-white text-center">
-        <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            {isMr ? 'सेवेच्या कार्यात सहभागी होण्यास तयार आहात?' : 'Ready to join our service activities?'}
-          </h2>
-          <p className="text-orange-100 mb-8">
-            {isMr ? 'आजच सदस्य बना आणि समाजसेवेत आपले योगदान द्या' : 'Become a member today and contribute to social service'}
-          </p>
-          <Link to="/join" className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-white text-orange-600 font-bold shadow-xl hover:scale-105 transition-transform">
-            <UserPlus size={20} />
-            {t.hero.cta1[lang]}
-          </Link>
-        </div>
-      </section>
     </div>
   );
 }

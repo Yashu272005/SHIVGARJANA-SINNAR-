@@ -5,6 +5,7 @@ import { useData } from '../context/DataContext';
 import { translations as t } from '../lib/translations';
 import { guide, chief, committee, Member } from '../lib/seedData';
 import PageHeader from '../components/PageHeader';
+import JoinQR from "../components/JoinQR";
 
 type LanguageKey = keyof Member['name'];
 type Tab = 'members' | 'join';
