@@ -26,6 +26,19 @@ export const guide: Member = {
   },
 };
 
+// Guide 2 / मार्गदर्शक २ — replace name, photo and info with the actual second guide's details
+export const guide2: Member = {
+  name: {
+    mr: 'अंकुश पवार',
+    en: 'Ankush Pawar'
+  },
+  photo: '/images/member/ankush pawar.jpg',
+  info: {
+    mr: 'मंडळाचे मार्गदर्शक',
+    en: 'Guide & Mentor of the Mandal',
+  },
+};
+
 // Chief / मंडळाचे प्रमुख
 export const chief: Member = {
   name: {
@@ -94,23 +107,17 @@ export const committee: Member[] = [
   },
 
   {
-    name: { mr: 'सचिन लोणारे', en: 'Sachin Lonare' },
-    photo: '/images/member/Sachin Lonare.png',
-    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
-  },
-
-  {
     name: { mr: 'मयूर नाईक', en: 'Mayur Naik' },
     photo: '/images/member/mayur naik.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
 
-
   {
-    name: { mr: 'किरण खर्जे', en: 'Kiran Kharje' },
-    photo: '/images/member/kiran kharje.jpeg',
+    name: { mr: 'सचिन लोणारे', en: 'Sachin Lonare' },
+    photo: '/images/member/Sachin Lonare.png',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
+
   {
     name: { mr: 'सौरभ आहेर', en: 'Saurabh Aher' },
     photo: '/images/member/Saurbh ahear.jpeg ',
@@ -127,8 +134,13 @@ export const committee: Member[] = [
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
-    name: { mr: 'श्रीधर झगडे', en: 'Shridhar Jhagade' },
-    photo: '/images/member/shridhar zagade.jpeg',
+    name: { mr: 'कृष्णा लोंढे', en: 'Krishna Londhe' },
+    photo: '/images/member/Krishna Londhe.png',
+    info: { mr: 'विभागप्रमुख ', en: 'Department Head' },
+  },
+  {
+    name: { mr: 'प्रतीश सोनवणे', en: 'pratish sonavane' },
+    photo: '/images/member/pritesh sonavane.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
@@ -137,15 +149,27 @@ export const committee: Member[] = [
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
   {
-    name: { mr: 'कृष्णा लोंढे', en: 'Krishna Londhe' },
-    photo: '/images/member/Krishna Londhe.png',
-    info: { mr: 'विभागप्रमुख ', en: 'Department Head' },
-  },
-  {
     name: { mr: 'सुमित पाचोरे', en: 'Sumit Pachore' },
     photo: '/images/member/Sumit pachore.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
+  {
+    name: { mr: 'श्रीधर झगडे', en: 'Shridhar Jhagade' },
+    photo: '/images/member/shridhar zagade.jpeg',
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
+  },
+  {
+    name: { mr: 'गणेश डहाळे', en: 'Ganesh Dahale' },
+    photo: '/images/member/ganesh Dahale.jpeg',
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
+  },
+  {
+    name: { mr: 'किरण खर्जे', en: 'Kiran Kharje' },
+    photo: '/images/member/kiran kharje.jpeg',
+    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
+  },
+
+
   {
     name: { mr: 'समाधान आव्हाड,', en: 'Samadhan Awhad' },
     photo: '/images/member/Samadhan Awhad.JPG',
@@ -156,11 +180,7 @@ export const committee: Member[] = [
     photo: '/images/member/tushar zagade.jpeg',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
-  {
-    name: { mr: 'गणेश डहाळे', en: 'Ganesh Dahale' },
-    photo: '/images/member/ganesh Dahale.jpeg',
-    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
-  },
+
   {
     name: { mr: 'शिवम वाघ', en: 'Shivam Wagh' },
     photo: '/images/member/shivam wagh.jpeg',
@@ -176,11 +196,7 @@ export const committee: Member[] = [
     photo: '/images/member/Prashant Sonavane.png',
     info: { mr: 'विभागप्रमुख', en: 'Department Head' },
   },
-  {
-    name: { mr: 'प्रतीश सोनवणे', en: 'pratish sonavane' },
-    photo: '/images/member/pritesh sonavane.jpeg',
-    info: { mr: 'विभागप्रमुख', en: 'Department Head' },
-  },
+
 
 ];
 
@@ -436,14 +452,15 @@ export const socialActivities: SocialActivitySeed[] = [
 
 // Seed gallery images
 export const seedGallery = [
-  { url: '/images/festival-aarti.jpg', title: { mr: 'महाआरती', en: 'Maha-Aarti' }, category: 'festival' as const },
+
+  { url: '/images/festival-ramnavami.jpg', title: { mr: 'श्रीराम नवमी महाआरती', en: 'Ram Navami Maha-Aarti' }, category: 'events' as const },
   { url: '/images/festival-dahihandi.png', title: { mr: 'दहीहंडी उत्सव', en: 'Dahihandi Festival' }, category: 'festival' as const },
   { url: '/images/festival-deepotsav.jpg', title: { mr: 'दीपोत्सव', en: 'Deepotsav' }, category: 'festival' as const },
   { url: '/images/social-blood.jpg', title: { mr: 'रक्तदान शिबिर', en: 'Blood Donation Camp' }, category: 'blood' as const },
   { url: '/images/social-health.jpg', title: { mr: 'आरोग्य शिबीर', en: 'Health Camp' }, category: 'health' as const },
   { url: '/images/social-cleaning.jpg', title: { mr: 'स्वच्छता मोहीम', en: 'Cleaning Campaign' }, category: 'cleaning' as const },
   { url: '/images/social-tree.jpg', title: { mr: 'वृक्षारोपण', en: 'Tree Plantation' }, category: 'events' as const },
-  { url: '/images/festival-ramnavami.jpg', title: { mr: 'श्रीराम नवमी', en: 'Ram Navami' }, category: 'events' as const },
+
 ];
 
 // Seed members

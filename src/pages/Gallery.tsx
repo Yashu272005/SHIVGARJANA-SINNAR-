@@ -7,15 +7,11 @@ import { getMediaType, parseVideoUrl } from '../lib/exportUtils';
 import PageHeader from '../components/PageHeader';
 import type { GalleryImage } from "../lib/types";
 
-type Category = 'all' | 'festival' | 'blood' | 'health' | 'cleaning' | 'events' | 'ramnavami' | 'palkhi';
+type Category = 'all' | 'Dahihandi festival' | 'ramnavami' | 'palkhi' | 'blood' | 'health' | 'cleaning' | 'events';
 type ViewMode = 'category' | 'year';
 
 const EARLIEST_YEAR = 2022;
 
-/**
- * Best-effort year lookup for a gallery item.
- * `year` (if present and numeric) takes priority over date/createdAt.
- */
 function getItemYear(item: GalleryImage | null | undefined): number | null {
   if (!item || typeof item !== 'object') return null;
 
@@ -32,11 +28,7 @@ function getItemYear(item: GalleryImage | null | undefined): number | null {
   return Number.isNaN(parsed.getTime()) ? null : parsed.getFullYear();
 }
 
-// Moved OUTSIDE Gallery so it's a stable component reference across
-// renders — previously this was defined inside Gallery(), which meant a
-// brand-new component type was created every render, forcing every visible
-// thumbnail (including any playing <video>) to unmount/remount whenever any
-// state changed (opening the lightbox, switching category/year, etc).
+
 function Thumbnail({
   img,
   heightClass,
@@ -107,13 +99,14 @@ export default function Gallery() {
 
   const categories: { key: Category; label: string }[] = [
     { key: 'all', label: t.gallery.all[lang] },
-    { key: 'festival', label: t.gallery.festival[lang] },
+    { key: 'ramnavami', label: t.gallery.ramnavami[lang] },
+    { key: 'palkhi', label: t.gallery.palkhi[lang] },
+    { key: 'Dahihandi festival', label: t.gallery['Dahihandi festival'][lang] },
     { key: 'blood', label: t.gallery.blood[lang] },
     { key: 'health', label: t.gallery.health[lang] },
     { key: 'cleaning', label: t.gallery.cleaning[lang] },
     { key: 'events', label: t.gallery.events[lang] },
-    { key: 'ramnavami', label: t.gallery.ramnavami[lang] },
-    { key: 'palkhi', label: t.gallery.palkhi[lang] },
+
   ];
 
   const years = useMemo(() => {

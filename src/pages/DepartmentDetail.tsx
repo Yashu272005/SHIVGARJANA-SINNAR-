@@ -123,7 +123,6 @@ export default function DepartmentDetail() {
           </div>
         </div>
 
-
         {/* Contact Person */}
         <div className="bg-gray-800 rounded-2xl p-6 text-white">
           <h3 className="text-xl font-bold mb-4">{t.departments.contact[lang]}</h3>

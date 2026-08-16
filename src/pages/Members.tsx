@@ -3,7 +3,7 @@ import { Search, UserPlus, Users, Phone, User, CheckCircle2, AlertCircle } from 
 import { useLanguage } from '../context/LanguageContext';
 import { useData } from '../context/DataContext';
 import { translations as t } from '../lib/translations';
-import { guide, chief, committee, Member } from '../lib/seedData';
+import { guide, guide2, chief, committee, Member } from '../lib/seedData';
 import PageHeader from '../components/PageHeader';
 import JoinQR from "../components/JoinQR";
 
@@ -39,7 +39,7 @@ function ChiefCard() {
 }
 
 function Avatar({ member, size = 'lg', lang }: { member: Member; size?: 'lg' | 'md'; lang: LanguageKey }) {
-  const dimensions = size === 'lg' ? 'w-70 h-70 text-8xl' : 'w-45 h-45 text-3xl';
+  const dimensions = size === 'md' ? 'w-35 h-35 text-8xl' : 'w-45 h-45 text-3xl';
   const displayName = resolveName(member.name, lang);
   const initial = displayName.charAt(0) || '?';
 
@@ -94,13 +94,32 @@ function MembersSection({ lang }: { lang: LanguageKey }) {
         </div>
       </div>
 
+      {/* Logo + Guides row */}
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-52 ">
+        <div className="flex flex-col items-center shrink-0 pl-50">
+          <img
+            src="/images/logo.png"
+            alt="Logo"
+            className="w-80 h-80 sm:w-10  0 sm:h-100 object-contain"
+          />
+        </div>
 
-      {/* Guide */}
-      <div className="flex flex-col items-center mb-8">
-        <Avatar member={guide} size="lg" lang={lang} />
-        <div className="text-sm text-purple-600 font-medium">{t.org.guide[lang]}</div>
-        <div className="text-lg font-bold text-gray-800">{resolveName(guide.name, lang)}</div>
-        <div className="text-sm text-gray-500 text-center max-w-xs">{guide.info[lang]}</div>
+        {/* Guides */}
+        <div className="w-full flex flex-col sm:flex-row items-center justify-end gap-10 pr-10">
+          <div className="flex flex-col items-center">
+            <Avatar member={guide} size="md" lang={lang} />
+            <div className="text-sm text-purple-600 font-medium">{t.org.guide[lang]}</div>
+            <div className="text-lg font-bold text-gray-800">{resolveName(guide.name, lang)}</div>
+            <div className="text-sm text-gray-500 text-center max-w-xs">{guide.info[lang]}</div>
+          </div>
+
+          <div className="flex flex-col items-center">
+            <Avatar member={guide2} size="md" lang={lang} />
+            <div className="text-sm text-purple-600 font-medium">{t.org.guide[lang]}</div>
+            <div className="text-lg font-bold text-gray-800">{resolveName(guide2.name, lang)}</div>
+            <div className="text-sm text-gray-500 text-center max-w-xs">{guide2.info[lang]}</div>
+          </div>
+        </div>
       </div>
 
       {/* Committee */}

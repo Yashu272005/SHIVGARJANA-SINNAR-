@@ -449,13 +449,13 @@ export default function AdminDashboard() {
                     onChange={(e) => setImgCategory(e.target.value as GalleryImage['category'])}
                     className="w-full px-3 py-2 rounded-lg border border-gray-200 focus:border-orange-400 focus:ring-2 focus:ring-orange-100 outline-none text-sm"
                   >
-                    <option value="festival">{t.gallery.festival[lang]}</option>
+                    <option value="Dahihandi festival">{t.gallery.festival[lang]}</option>
+                    <option value="ramnavami">{t.gallery.ramnavami[lang]}</option>
+                    <option value="palkhi">{t.gallery.palkhi[lang]}</option>
                     <option value="blood">{t.gallery.blood[lang]}</option>
                     <option value="health">{t.gallery.health[lang]}</option>
                     <option value="cleaning">{t.gallery.cleaning[lang]}</option>
                     <option value="events">{t.gallery.events[lang]}</option>
-                    <option value="ramnavami">{t.gallery.ramnavami[lang]}</option>
-                    <option value="palkhi">{t.gallery.palkhi[lang]}</option>
                   </select>
                 </div>
                 <div>
