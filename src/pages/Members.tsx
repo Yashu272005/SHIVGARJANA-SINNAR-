@@ -100,7 +100,7 @@ function MembersSection({ lang }: { lang: LanguageKey }) {
           <img
             src="/images/logo.png"
             alt="Logo"
-            className="w-80 h-80 sm:w-10  0 sm:h-100 object-contain"
+            className="w-full h-full sm:w-100 sm:h-100 object-contain"
           />
         </div>
 
